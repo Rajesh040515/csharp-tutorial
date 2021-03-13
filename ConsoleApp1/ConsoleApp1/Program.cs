@@ -7,14 +7,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-           for(int i=0; i<10;i++)
-            {
-                if(i %2 == 0 )
-                {
-                    Console.WriteLine(i);
-                }
-            }
+            var number= new int[] { 1,2,3,4};
 
+            foreach (var n in number)
+            {
+                Console.WriteLine(n);
+            }
+          
             }
 
 
