@@ -7,31 +7,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            /* int hour = 13;
-             if(hour>0 && hour < 12)
-             {
-                 Console.WriteLine("morning");
-             }
-
-              else if (hour > 12 && hour < 18)
-             {
-                 Console.WriteLine("afternoon");
-             }*/
-            var season2 = season2.summer;
-            switch(season2)
+           for(int i=0; i<10;i++)
             {
-
-                case season2.summer:
-                        Console.WriteLine("summer" );
-                    break;
-
-                case season2.winter:
-                    Console.WriteLine("winter");
-                    break;
-
-                default:
-                    Console.WriteLine("autumn");
-                    break;
+                if(i %2 == 0 )
+                {
+                    Console.WriteLine(i);
+                }
+            }
 
             }
 
@@ -41,4 +23,4 @@ namespace ConsoleApp1
 
         }
     }
-}
+
