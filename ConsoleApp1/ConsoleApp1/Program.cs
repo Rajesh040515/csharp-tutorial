@@ -7,11 +7,28 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var number= new int[] { 1,2,3,4};
 
-            foreach (var n in number)
+            //int i = 0;
+            //while(i<=10)
+            //{
+            //    if(i % 2==0)
+            //        {
+            //        Console.WriteLine(i);
+            //        i++;
+            //    }
+
+            while (true)
             {
-                Console.WriteLine(n);
+
+                Console.Write("name here");
+                var input = Console.ReadLine();
+                Console.WriteLine(input);
+                if (string.IsNullOrWhiteSpace(input))
+                    break;
+                Console.WriteLine(" echo" +input);
+
+
+            }
             }
           
             }
@@ -21,5 +38,5 @@ namespace ConsoleApp1
 
 
         }
-    }
+    
 
