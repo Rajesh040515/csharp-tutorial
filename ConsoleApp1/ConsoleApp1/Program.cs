@@ -8,27 +8,17 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            //int i = 0;
-            //while(i<=10)
-            //{
-            //    if(i % 2==0)
-            //        {
-            //        Console.WriteLine(i);
-            //        i++;
-            //    }
-
-            while (true)
+            var random = new Random();
+            //    for (var i = 0;i<= 10; i++)
+            //    Console.WriteLine(random.Next(1,10));
+            var buffer = new char[10];
+            for(var i = 0; i < 8; i++)
             {
-
-                Console.Write("name here");
-                var input = Console.ReadLine();
-                Console.WriteLine(input);
-                if (string.IsNullOrWhiteSpace(input))
-                    break;
-                Console.WriteLine(" echo" +input);
-
-
+                buffer[i]=(char)("a" + random.Next(1,10));
+            var password = new string(buffer);
+            Console.WriteLine(password);
             }
+
             }
           
             }
