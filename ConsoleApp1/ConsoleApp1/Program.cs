@@ -1,38 +1,26 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var number = new[] { 1, 2, 3, 4, 5 };
 
-            //array length
-            Console.WriteLine("length"+ number.Length);
-            
-            //index number find
-            var index = Array.IndexOf(number, 2);
-            Console.WriteLine(index);
-
-            //clear
-            Array.Clear(number, 1, 2);
-            Console.WriteLine("clear()");
-            foreach(var n in number)
-                Console.WriteLine(n);
-            //copy
-            int[] another = new int[3];
-            Array.Copy(number, another, 3);
-            Console.WriteLine("copy");
-            foreach (var i in another) Console.WriteLine(i);
-
-            Array.Sort(another);
-            Console.WriteLine("sort");
-            foreach(var k in another)
-                Console.WriteLine(k);
+            var num = new List<int>() { 1, 2, 3 };
+            num.Add(7);
+            num.AddRange(new int[3] { 4, 5, 6 });
+            foreach (var i in num)
+                Console.WriteLine(i);
 
 
-            
+            Console.WriteLine( "count"+num.Count);
+
+            num.Remove(1);
+            foreach(var r in num)
+                Console.WriteLine("remove:"+r);
+            num.Clear();
+        
 
         
         }
