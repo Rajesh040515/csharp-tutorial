@@ -8,27 +8,15 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            var datetime = new DateTime();
-            var now = DateTime.Now;
-            var today = DateTime.Today;
-            //Console.WriteLine(now.Hour);
-            //Console.WriteLine(now.Minute);
-            //Console.WriteLine(today.Hour);
-            //Console.WriteLine(today.Day);
-            //Console.WriteLine(today.Month);
+            var timespan = new TimeSpan(10,15,30);
+            var timespan1 = new TimeSpan();
+            var timespan2 = TimeSpan.FromHours(1);
+            var strt = DateTime.Now;
+            var end = DateTime.Now.AddMinutes(10);
+            var duration = strt - end;
+            Console.WriteLine(duration);
 
-            var tommorow = now.AddDays(1);
-            Console.WriteLine(tommorow);
 
-            var yesterday = now.AddDays(-1);
-            Console.WriteLine(yesterday);
-
-            Console.WriteLine(now.ToLongDateString());
-            Console.WriteLine(now.ToShortTimeString());
-            Console.WriteLine(now.ToLongTimeString());
-            Console.WriteLine(now.ToShortDateString());
-            Console.WriteLine(now.ToString());
-            
 
            
         }
