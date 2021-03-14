@@ -1,0 +1,16 @@
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\bin\Debug\net5.0\C Sharp Tutorials.exe
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\bin\Debug\net5.0\C Sharp Tutorials.deps.json
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\bin\Debug\net5.0\C Sharp Tutorials.runtimeconfig.json
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\bin\Debug\net5.0\C Sharp Tutorials.runtimeconfig.dev.json
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\bin\Debug\net5.0\C Sharp Tutorials.dll
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\bin\Debug\net5.0\ref\C Sharp Tutorials.dll
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\bin\Debug\net5.0\C Sharp Tutorials.pdb
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\obj\Debug\net5.0\C Sharp Tutorials.csprojAssemblyReference.cache
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\obj\Debug\net5.0\C Sharp Tutorials.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\obj\Debug\net5.0\C Sharp Tutorials.AssemblyInfoInputs.cache
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\obj\Debug\net5.0\C Sharp Tutorials.AssemblyInfo.cs
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\obj\Debug\net5.0\C Sharp Tutorials.csproj.CoreCompileInputs.cache
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\obj\Debug\net5.0\C Sharp Tutorials.dll
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\obj\Debug\net5.0\ref\C Sharp Tutorials.dll
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\obj\Debug\net5.0\C Sharp Tutorials.pdb
+C:\Rajesh\C# - Tutorial\C Sharp Tutorials\C Sharp Tutorials\obj\Debug\net5.0\C Sharp Tutorials.genruntimeconfig.cache
