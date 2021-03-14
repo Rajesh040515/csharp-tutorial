@@ -1,21 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace C_Sharp_Tutorials
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            var sentence = "this is a sentence this is a sentence this is a sentence";
-          
-            var summary =stringutility.summarizetext(sentence, 25);
+            var sentence = "This is going to be really really really really really long text";
+            var summary = stringutility.SummerizeText(sentence, 30);
             Console.WriteLine(summary);
 
-            }
-
-          
         }
 
+    } }
 
-    }
-}

@@ -8,33 +8,27 @@ namespace C_Sharp_Tutorials
 {
     public class stringutility
     {
-
-        public static string summarizetext(string text, int maxlength = 0)
+        public static string SummerizeText(string text, int maxLength = 20)
         {
-
-
-            if (text.Length < maxlength)
+            if (text.Length < maxLength)
                 return text;
-            else
+
+            var words = text.Split(' ');
+            var totalCharacters = 0;
+
+            var summaryWords = new List<string>();
+
+            foreach (var word in words)
             {
+                summaryWords.Add(word)
+;
 
-                var words = text.Split(' ');
-                var totalchar = 0;
-                var summarywords = new List<string>();
-                foreach (var word in words)
-                {
-                    summarywords.Add(word);
-
-                    totalchar += word.Length + 1;
-                    if (totalchar > text)
-                        break;
-
-                }
-                var summary = string.Join("", summarywords + "");
-                Console.WriteLine(summary);
-
-
+                totalCharacters += word.Length + 1;
+                if (totalCharacters > maxLength)
+                    break;
             }
+            return String.Join(" ", summaryWords) + "...";
+
         }
     }
 }
