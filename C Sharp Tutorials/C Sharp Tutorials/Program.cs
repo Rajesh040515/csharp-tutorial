@@ -1,5 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
+
+using System.Text;
+
 
 namespace C_Sharp_Tutorials
 {
@@ -7,10 +9,21 @@ namespace C_Sharp_Tutorials
     {
         public static void Main(string[] args)
         {
-            var sentence = "This is going to be really really really really really long text";
-            var summary = stringutility.SummerizeText(sentence, 30);
-            Console.WriteLine(summary);
+            var builder = new StringBuilder("helloworld");
+            builder.Append('-', 10);
+            builder
+            .AppendLine()
+            .Append("name")
+            .AppendLine()
+            .Append('*', 10)
+            .Replace('-', '+')
+            .Remove(0,5)
+            .Insert(0, new string('-', 5));
+            Console.WriteLine(builder);
+            Console.WriteLine( "char "+builder[5]);
+                
 
+            
         }
 
     } }
