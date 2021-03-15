@@ -1,6 +1,7 @@
 ﻿using System;
-
+using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 
 namespace C_Sharp_Tutorials
@@ -9,21 +10,17 @@ namespace C_Sharp_Tutorials
     {
         public static void Main(string[] args)
         {
-            var builder = new StringBuilder("helloworld");
-            builder.Append('-', 10);
-            builder
-            .AppendLine()
-            .Append("name")
-            .AppendLine()
-            .Append('*', 10)
-            .Replace('-', '+')
-            .Remove(0,5)
-            .Insert(0, new string('-', 5));
-            Console.WriteLine(builder);
-            Console.WriteLine( "char "+builder[5]);
-                
+          var fibonacci=new List<int> { 1,1};
 
-            
+            while(fibonacci.count<20)
+            {
+                var previous= fibonacci.Count-1;
+                var previous1= fibonacci.Count-2;
+                var add=(previous+previous1);
+
+
+            }
+            Console.WriteLine(add);
         }
 
     } }
