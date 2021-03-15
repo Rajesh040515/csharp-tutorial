@@ -16,11 +16,12 @@ namespace C_Sharp_Tutorials
             {
                 var previous= fibonacci.Count-1;
                 var previous1= fibonacci.Count-2;
-                var add=(previous+previous1);
+             fibonacci.Add(previous+previous1);
 
 
             }
-            Console.WriteLine(add);
+            foreach(var item in fibonacci)
+            Console.WriteLine(item);
         }
 
     } }
